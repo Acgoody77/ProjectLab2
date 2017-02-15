@@ -1,0 +1,26 @@
+server/host: www.myweb.ttu.edu/augoodma
+ssl: enabled
+Protocol: WebDAV over HTTPS
+Port: 443
+Domain: TTU
+
+
+After a www.depts.ttu.edu site is created, the website administrator needs to create a default page in the root folder of the account in order for their website address to function.  The default page should be saved as one of the following file names:
+index.php
+index.asp
+index.aspx
+index.htm
+index.html
+default.php
+default.asp
+default.aspx
+default.htm
+default.html
+home.php
+home.asp
+home.aspx
+home.htm
+home.html
+Only one of these files is needed.  This file is the page that is displayed when users browse to http://www.depts.ttu.edu/site_name.
+The Web server will check for and display the default page in the order listed above.
+EXAMPLE: If both an index.php and an index.asp page exist, the index.php page will be displayed when users browse to http://www.depts.ttu.edu/site_name.  This is because index.php is higher in the list than index.asp.
