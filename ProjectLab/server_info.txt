@@ -24,3 +24,7 @@ home.html
 Only one of these files is needed.  This file is the page that is displayed when users browse to http://www.depts.ttu.edu/site_name.
 The Web server will check for and display the default page in the order listed above.
 EXAMPLE: If both an index.php and an index.asp page exist, the index.php page will be displayed when users browse to http://www.depts.ttu.edu/site_name.  This is because index.php is higher in the list than index.asp.
+
+
+
+Instance:  i-0cb5b5b0dea4fae1d (ProjectLab)Elastic IP: 35.164.7.13
